@@ -1,0 +1,13 @@
+.CardPlace{
+    width: 300px;
+    /* height: 180px; */
+   margin: 20px 30px;
+   
+}
+.CardPlace__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
