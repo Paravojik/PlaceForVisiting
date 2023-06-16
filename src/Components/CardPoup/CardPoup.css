@@ -24,6 +24,7 @@
    padding: 10px 20px;
    transition: 0.25s;
     position: relative;
+    z-index: 2;
 }
 .CardPoup__main__name{
     font-size: 36px;

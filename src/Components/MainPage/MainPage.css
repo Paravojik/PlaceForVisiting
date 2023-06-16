@@ -7,13 +7,14 @@
 }
 .App{
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
   align-items: center;
   background-color: rgb(255, 255, 194);
   padding: 10px 20px;
+  overflow: auto;
 }
 .App__text{
 
