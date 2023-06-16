@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './CardPoup.css'
 import exit from './img/exit.png'
+import { Link } from 'react-router-dom';
 function CardPoup(props){
     let [disctance,setDisctance]=useState('')
 
@@ -53,7 +54,7 @@ function CardPoup(props){
     return(
         <div onClick={props.closePoup} className="CardPoup" style={props.visible?{zIndex:'1'}:{zIndex:'-1'} }>
             <div onClick={(e)=>e.stopPropagation()} style={props.visible?{opacity:'1'}:{opacity:'0'} }  className="CardPoup__main">
-                <img onClick={props.closePoup} className='exitBtn' src={exit} alt="" />
+                <Link to='/'><img onClick={props.closePoup} className='exitBtn' src={exit} alt="" /></Link>
                 <div className="CardPoup__main__name">{props.value.name}</div>
                 <div className="CardPoup__main__box">
                     <div className="CardPoup__main__left">
