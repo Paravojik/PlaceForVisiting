@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom'
+
 import CardPlace from '../CardPlace/CardPlace'
 import './MainPage.css'
 function MainPage(){
